@@ -6,6 +6,7 @@ import fileTextFill from '@iconify/icons-eva/file-text-fill';
 import lockFill from '@iconify/icons-eva/lock-fill';
 import personAddFill from '@iconify/icons-eva/person-add-fill';
 import alertTriangleFill from '@iconify/icons-eva/alert-triangle-fill';
+import AccountBook from '@iconify/icons-ant-design/account-book';
 
 // ----------------------------------------------------------------------
 
@@ -31,6 +32,11 @@ const sidebarConfig = [
     title: 'blog',
     path: '/dashboard/blog',
     icon: getIcon(fileTextFill)
+  },
+  {
+    title: 'Scan Result',
+    path: '/dashboard/scan',
+    icon: getIcon(AccountBook)
   },
   {
     title: 'login',
